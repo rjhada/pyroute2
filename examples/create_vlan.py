@@ -13,7 +13,7 @@ try:
 
     # unique interface names
     ms = uifname()
-    vn = uifname()
+#    vn = uifname()
 
     master = ip.create(ifname=ms, kind='dummy').commit()
 
